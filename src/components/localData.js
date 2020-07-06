@@ -55,6 +55,7 @@ useEffect(() => {
     //    settotalrecoveries(oldarrya=>([...oldarrya ,countryTimelineDataJson.timelineitems[0][k].total_recoveries]))
        }
        );
+       
         setdataLoading(true)
     }
     fetchCountryData();
